@@ -1,4 +1,13 @@
 {
+  "name": "3d-resume-Pranav",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx vite src --host 0.0.0.0",
+    "build": "npx parcel build src/index.html --public-url ./",
+    "format": "npx prettier . --write"
+  },
+
+{
     "dependencies": {
         "@xenova/transformers": "^2.6.1",
         "three": "^0.156.1"
